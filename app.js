@@ -176,5 +176,9 @@
 // ele=document.getElementById("header").removeAttribute("class");
 // console.log(ele);
 
+function xyz(){
 
+var cl=document.getElementById('u');
+cl.classList.add("xyz");
 
+}
