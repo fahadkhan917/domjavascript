@@ -203,8 +203,18 @@
 
 // }
 
- var a=prompt("enter the word");
-for(i=a.length-1;i>=0;i--){
-document.write(a[i]);
+//  var a=prompt("enter the word");
+//  var check='';
+// for(i=a.length-1;i>=0;i--){
+// check=a[i];
+// if(check===a[i]){
 
-}
+
+// document.write(check)
+
+
+// }
+
+
+// }
+
