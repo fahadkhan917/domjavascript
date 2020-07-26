@@ -176,9 +176,29 @@
 // ele=document.getElementById("header").removeAttribute("class");
 // console.log(ele);
 
-function xyz(){
+// function xyz(){
 
-var cl=document.getElementById('u');
-cl.classList.add("xyz");
+// var cl=document.getElementById('u');
+// cl.classList.add("xyz");
+
+// }
+
+
+
+function abc(){
+
+var num1=document.getElementById('nu1').value;
+var num2=document.getElementById('nu2').value;
+var num3=document.getElementById('nu3').value;
+var num4=document.getElementById('nu4').value;
+var par=document.getElementById('para');
+var arr=[+(num1),+(num2),+(num3),+(num4)];
+var sum=0;
+for(var i=0;i<arr.length;i++){
+sum+=arr[i];
+
+
+}
+par.innerHTML=+sum;
 
 }
